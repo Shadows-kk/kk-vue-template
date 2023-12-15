@@ -11,6 +11,6 @@ export default {
     for (let [key, value] of Object.entries(components)) {
       let name = key.slice(key.lastIndexOf("/") + 1, key.lastIndexOf("."));
       app.component(name, value);
-    }      
-  }
-}
+    }
+  },
+};

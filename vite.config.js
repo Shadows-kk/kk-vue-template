@@ -29,7 +29,7 @@ export default defineConfig({
         "vue",
         "pinia",
         "vue-router",
-        // "@vueuse/core",
+        "@vueuse/core",
       ],
     }),
     Components({

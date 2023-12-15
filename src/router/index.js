@@ -31,6 +31,14 @@ const router = createRouter({
             module: "3DModule",
           },
         },
+        {
+          path: "echartsModule",
+          name: "echartsModule",
+          component: () => import("../views/echartsModule/index.vue"),
+          meta: {
+            module: "echartsModule",
+          },
+        },
       ],
     },
   ],
